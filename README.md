@@ -1,1 +1,7 @@
-# Polgarok_repo
+# Polgarok_repo![Képernyőfelvétel (54)](https://github.com/user-attachments/assets/3534f16f-663e-43b3-ae77-1fefff0b03f4)
+![Képernyőfelvétel (53)](https://github.com/user-attachments/assets/e05e32ee-5a3c-49d7-ab29-07bc0678df28)
+![Képernyőfelvétel (51)](https://github.com/user-attachments/assets/958a51ba-c7c6-4d3f-80b4-51e378ea8b74)
+![Képernyőfelvétel (50)](https://github.com/user-attachments/assets/8aad1166-851d-49bd-a896-54897f345520)
+![Képernyőfelvétel (49)](https://github.com/user-attachments/assets/9a2c429f-d1c2-4642-8dc5-4e1c8d118ae1)
+![Képernyőfelvétel (48)](https://github.com/user-attachments/assets/1a1b8ad0-bf3b-4ee2-b9e3-4ed6395f1684)
+![Képernyőfelvétel (55)](https://github.com/user-attachments/assets/e397a9b1-1da1-430c-81ed-c4df8f5652be)
