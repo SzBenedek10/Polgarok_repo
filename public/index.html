@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polgárok adatai</title>
+    <style>
+        .form-container {
+            width: 400px;
+            margin: 50px auto;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <fieldset>
+            <legend>Adatok rögzítése</legend>
+            <form action="" id="polgarForm">
+                <p>
+                    <label for="polgar_id">Polgár ID:</label>
+                    <input type="number" name="polgar_id" id="polgar_id" required placeholder="Polgár azonosítója...">
+                </p>
+                <p>
+                    <label for="nev">Név:</label>
+                    <input type="text" name="nev" id="nev" required placeholder="Gipsz Jakab">
+                </p>
+                <p>
+                    <label for="szuletesi_datum">Születési dátum:</label>
+                    <input type="text" name="szuletesi_datum" id="szuletesi_datum" required placeholder="2000-01-01">
+                </p>
+                <p>
+                    <label for="lakcim">Lakcím:</label>
+                    <input type="text"  name="lakcim" id="lakcim" required placeholder="Budapest">
+                </p>
+                <p>
+                    <label for="szemelyi_szam">Személyi szám:</label>
+                    <input type="text"  name="szemelyi_szam" id="szemelyi_szam" required placeholder="12345AB">
+                </p>
+                <p>
+                    <label for="neme">Nem:</label>
+                    <input type="text" name="neme" id="neme" required placeholder="Férfi">
+                </p>
+                <p>
+                    <button type="submit">Rögzítés</button>
+                </p>
+            </form>
+        </fieldset>
+        <h3>Polgárok adatai táblázatban</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Polgar ID</th>
+                    <th>Név</th>
+                    <th>Születési dátum</th>
+                    <th>Lakcím</th>
+                    <th>Személyi szám</th>
+                    <th>Nem</th>
+                </tr>
+            </thead>
+            <tbody id="polgarTable"><!--Ide jönnek az adatok--></tbody>
+        </table>
+    </div>
+
+    <script src="polgar.js"></script>
+</body>
+</html>
